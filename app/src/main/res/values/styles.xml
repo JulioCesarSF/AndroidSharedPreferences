@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:background">@color/accent</item>
+    </style>
+
+    <style name="TextViewLogo">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">50dp</item>
+    </style>
+
+    <style name="TextViewConfiguracao">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="EditTextConfiguracao">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="RadioButtonConfiguracao">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/secondary_text</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="ButtonConfiguracao">
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/accent</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+</resources>

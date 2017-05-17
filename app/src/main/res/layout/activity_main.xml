@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.juliao.rm755833.MainActivity">
+
+    <TextView
+        style="@style/TextViewConfiguracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/edtNome"
+        style="@style/EditTextConfiguracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_seu_nome"
+        android:inputType="textCapWords" />
+
+    <TextView
+        style="@style/TextViewConfiguracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        style="@style/EditTextConfiguracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_email"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        style="@style/TextViewConfiguracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forma_de_pagamento" />
+
+    <RadioGroup
+        android:id="@+id/rgPagamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/RadioButtonConfiguracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dinheiro" />
+
+        <RadioButton
+            style="@style/RadioButtonConfiguracao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cart_o_de_cr_dito" />
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/cbAceiteContrato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eu_li_e_aceito_os_termos" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        style="@style/ButtonConfiguracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="salvar"
+        android:text="@string/salvar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo_config"
+        android:scaleType="centerInside"
+        android:src="@drawable/config" />
+
+</LinearLayout>

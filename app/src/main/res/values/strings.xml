@@ -1,0 +1,28 @@
+<resources>
+    <string-array name="chaves">
+        <item>NOME</item>
+        <item>EMAIL</item>
+        <item>PAGAMENTO</item>
+        <item>ACEITE</item>
+    </string-array>
+    <string name="app_name">Taxi</string>
+    <string name="logo">logo</string>
+    <string name="taxi">Taxi</string>
+    <string name="nome">Nome</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="email">Email</string>
+    <string name="digite_email">Digite seu email</string>
+    <string name="logo_config">logo_config</string>
+    <string name="dinheiro">Dinheiro</string>
+    <string name="cart_o_de_cr_dito">Cartão de crédito</string>
+    <string name="forma_de_pagamento">Forma de Pagamento</string>
+    <string name="eu_li_e_aceito_os_termos">Eu li e aceito os termos.</string>
+    <string name="salvar">Salvar</string>
+    <string name="preencha">Preencha corretamente!</string>
+    <string name="salvo">Salvo com sucesso!</string>
+    <string name="pref_invalid">Arquivo de preferências inválido!</string>
+    <string name="sucesso">Carregado com sucesso!</string>
+    <string name="sim">sim</string>
+    <string name="nao">não</string>
+    <string name="erro">Erro:</string>
+</resources>
